@@ -175,11 +175,11 @@ const swaggerOptions = {
 typeorm
   .createConnection({
     type: "mssql",
-    host: "DESKTOP-RP0OT34",
+    host: "",
     port: 1433,
-    username: "hello",
-    password: "abc123",
-    database: "test",
+    username: "",
+    password: "",
+    database: "",
     synchronize: true,
     logging: false,
     entities: [
